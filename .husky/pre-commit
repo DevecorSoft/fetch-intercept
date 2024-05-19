@@ -1,0 +1,1 @@
+yarn test && npx istanbul-badges-readme --logo=jest && git add README.md
