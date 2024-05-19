@@ -1,5 +1,10 @@
 {
   "name": "@devecorsoft/fetch-intercept",
+  "version": "1.0.0-alpha",
+  "homepage": "https://github.com/DevecorSoft/fetch-intercept",
+  "description": "add interceptors to fetch api without any hack in to `window.fetch`",
+  "license": "MIT",
+  "keywords": ["fetch", "fetchApi", "interceptor"],
   "type": "module",
   "module": "dist/index.js",
   "main": "dist/index.js",
