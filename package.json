@@ -4,11 +4,17 @@
   "homepage": "https://github.com/DevecorSoft/fetch-intercept",
   "description": "add interceptors to fetch api without any hack in to `window.fetch`",
   "license": "MIT",
-  "keywords": ["fetch", "fetchApi", "interceptor"],
+  "keywords": [
+    "fetch",
+    "fetchApi",
+    "interceptor"
+  ],
   "type": "module",
   "module": "dist/index.js",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "packageManager": "yarn@3.3.1",
   "devDependencies": {
     "@happy-dom/jest-environment": "^14.11.0",
@@ -22,7 +28,7 @@
   },
   "scripts": {
     "test": "jest",
-    "prepare": "husky",
+    "preinstall": "husky",
     "build": "yarn tsc && node build.js"
   }
 }
