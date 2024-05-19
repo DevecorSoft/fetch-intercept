@@ -16,7 +16,7 @@ add interceptors to fetch api without any hack in to `window.fetch`
 ```typescript
 import {
   fetchFactory
-} from "@devecorsof/fetch-intercept"
+} from "@devecorsoft/fetch-intercept"
 
 describe('authorization interceptor', () => {
   it('should add authorization', async () => {
